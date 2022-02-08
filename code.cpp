@@ -475,7 +475,7 @@ public:
 	////////////////////////
 	/*
 	std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/5_Implied_volatilities/allcode/pivot.csv");
+	 output.open("C:/Users/pivot.csv");
 
 	if(!output.is_open())
  {
@@ -584,8 +584,8 @@ int main(int argc, char* argv[]) // for options!!!
 			
 
 
-	//std::ifstream input("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/4_Execises_class/4_newtonClasses/2_Vectors/datasource.txt");
-	std::ifstream input("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/5_Implied_volatilities/allcode/datasource.txt");
+	//std::ifstream input("C:/Users/datasource.txt");
+	std::ifstream input("C:/Users/datasource.txt");
 	Secant o5;
 
 	MVector callMarketV;
@@ -686,7 +686,7 @@ for (int i=0;i<S0V.size();i++){
 
 	// system("pause");
 	 std::ofstream output;
-	 output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/5_Implied_volatilities/allcode/impliedVolatilities.csv");
+	 output.open("C:/Users/impliedVolatilities.csv");
 	 if(!output.is_open())
  {
      std::cout << " File not opened \n"; // To validate if the file was opened.
